@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.bb1 {
+  background-color: #424242;
+  height: 300px;
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: bb1ani 1s infinite ease-in-out;
+}
+.sb {
+  background-color: white;
+  height: 5px;
+  width: 5px;
+  margin: 0 5px 0 5px;
+  border-radius: 5px;
+}
+@keyframes bb1ani {
+  60% {
+    transform: rotate(0.5turn);
+  }
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
+
+.bb2 {
+  background-color: #b40431;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bb2 > div {
+  background-color: white;
+  height: 20px;
+  width: 5px;
+  margin: 0 5px 0 0;
+  animation: bb2ani 1s infinite ease-in-out;
+}
+.bb2 .b4 {
+  animation-delay: -0.9s;
+}
+.bb2 .b5 {
+  animation-delay: -0.8s;
+}
+.bb2 .b6 {
+  animation-delay: -0.7s;
+}
+.bb2 .b7 {
+  animation-delay: -0.6s;
+}
+.bb2 .b8 {
+  animation-delay: -0.5s;
+}
+
+@keyframes bb2ani {
+  0%,
+  20%,
+  60%,
+  80%,
+  100% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(2);
+  }
+}

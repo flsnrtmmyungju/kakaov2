@@ -1,0 +1,130 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+
+body {
+  font-family: "Inconsolata", monospace;
+  background-color: #ffffff;
+  display: flex;
+}
+.phone-out {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 248, 248);
+  margin: 10px;
+  width: 300px;
+  height: 670px;
+  border-radius: 40px;
+  border: 1px solid #c1c3c4;
+  border-bottom-color: #b6b8b8;
+  box-shadow: 10px 20px 20px 10px rgba(136, 134, 134, 0.3),
+    0 1px 2px rgba(0, 0, 0, 0.29);
+}
+.phone-in {
+  margin-top: -14px;
+  width: 260px;
+  height: 610px;
+  border-radius: 30px;
+  background-color: #f4ebdc;
+}
+.header {
+  margin: 50px 5px 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-time__text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #475d72;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 5px 0 5px;
+  color: #475d72;
+}
+.top__text1 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.top__text2 {
+  font-size: 12px;
+  font-weight: bold;
+  color: #f32b2b;
+}
+.imgs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img {
+  height: 80px;
+  width: 125px;
+  border-radius: 9px;
+  background-color: #000000;
+  color: #f3ecd9;
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  margin: 5px -10px;
+}
+.other-recipes {
+  margin: 19px 0 0 5px;
+  color: #475d72;
+  font-size: 14px;
+  font-weight: bold;
+}
+.list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.list-food {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  border-radius: 8px;
+}
+.info {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #475d72;
+  font-size: 13px;
+  font-weight: bold;
+}
+.recipes_count {
+  margin-top: 3px;
+  color: #b1b6b9;
+}
+.icon {
+  margin-right: 12px;
+  color: #f32b2b;
+}
+
+.nav {
+  margin: 15px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #475d72;
+  height: 40px;
+  width: 260px;
+  color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+#nav-color {
+  color: #f32b2b;
+}

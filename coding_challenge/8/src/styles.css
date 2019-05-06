@@ -1,0 +1,145 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+
+body {
+  font-family: "Inconsolata", monospace;
+  background-color: #ffffff;
+  display: flex;
+}
+.phone {
+  margin: 10px;
+  width: 326px;
+  height: 651px;
+  background-color: rgb(247, 236, 236);
+  border-radius: 30px;
+  background-image: -webkit-gradient(
+    linear,
+    0% 0%,
+    0% 100%,
+    color-stop(0.2, rgb(246, 247, 247)),
+    to(rgb(236, 235, 235))
+  );
+
+  border: 1px solid #c1c3c4;
+
+  border-bottom-color: #b6b8b8;
+
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    10px 20px 20px 10px rgba(136, 134, 134, 0.3), 0 1px 2px rgba(0, 0, 0, 0.29);
+}
+.sign-in__header {
+  color: #424040;
+  font-weight: bold;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.sign-in__input {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sign-in__input_input {
+  width: 260px;
+  height: 32px;
+  margin: 7px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+}
+input::placeholder {
+  padding-left: 12px;
+  color: #a8a7a7;
+  font-size: 11px;
+  font-weight: regular;
+}
+.Forgot_a {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 30px 0 0;
+  font-size: 11px;
+  text-decoration: none !important;
+  color: rgb(204, 3, 3);
+}
+.remember-check {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 0 30px;
+}
+#icon {
+  color: rgb(204, 3, 3);
+}
+.remember-check__text {
+  margin-left: 7px;
+  font-size: 11px;
+  font-weight: regular;
+  color: #a8a7a7;
+}
+.Sign_in__a {
+  width: 265px;
+  height: 37px;
+  border-radius: 21px;
+  margin: 50px 0 0 30px;
+  background: #d83b3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Sign_in__a_text {
+  color: white;
+  font-size: 11px;
+  font-weight: regular;
+}
+.or-text {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 36px 0 0 30px;
+}
+.SNS_a {
+  margin: 33px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.SNS_a_facebook {
+  margin-right: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #475a95;
+  font-size: 11px;
+  font-weight: regular;
+  color: white;
+  width: 125px;
+  height: 39px;
+  border-radius: 32px;
+}
+.SNS_a_twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5ca2f2;
+  font-size: 11px;
+  font-weight: regular;
+  color: white;
+  width: 125px;
+  height: 39px;
+  border-radius: 32px;
+}
+.sign_up {
+  margin: 33px 0 0 35px;
+  font-size: 11px;
+  font-weight: regular;
+}
+.retrive {
+  margin: 13px 0 0 35px;
+  font-size: 11px;
+  font-weight: regular;
+}
+.gray_text {
+  color: #a8a7a7;
+}
+.red_text {
+  color: #d83b3c;
+}
